@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace K66EthernetTest.ConsoleApp
 {
-    public class Transmit
+    public sealed class Transmit
     {
         private CancellationTokenSource cancelTokenSource = new CancellationTokenSource();
         Task taskTransmit;
